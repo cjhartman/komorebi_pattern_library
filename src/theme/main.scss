@@ -1,0 +1,66 @@
+@import "/variables";
+//
+//
+// Fonts
+//
+//
+$font-path: "../assets/fonts";
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Regular.ttf');
+    font-weight: 400
+}
+  
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../assets/fonts/Lato-Bold.ttf');
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../assets/fonts/Lato-Light.ttf');
+    font-weight: 200
+}
+
+@font-face {
+    font-family: 'NotoSansJP';
+    src: url('../assets/fonts/NotoSansJP-Regular.otf');
+    font-weight: 400
+}
+  
+@font-face {
+    font-family: 'NotoSansJP-Medium';
+    src: url('../assets/fonts/NotoSansJP-Medium.otf');
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Bold';
+    src: url('../assets/fonts/NotoSansJP-Bold.otf');
+    font-weight: 700
+}
+
+//
+//
+// Style specifics for navbar and content
+//
+//
+
+div {
+    > h4 {
+        font-family: Lato;
+        padding-top: 3rem;
+    }
+
+    > a {
+        font-family: Lato-Light;
+        color: $darkness;
+
+        &:hover {
+            background-color: $less-bright;
+            color: $darkness;
+        }
+    }
+}

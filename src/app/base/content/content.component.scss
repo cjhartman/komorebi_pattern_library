@@ -1,0 +1,15 @@
+.content {
+    box-sizing:border-box;
+    position:absolute;
+    left:350px;
+    width:calc(100% - 350px);
+    min-height: 100%;
+
+    .intro-title {
+        font-family: NotoSansJP-Medium;
+    }
+
+    p {
+        font-family: Lato-Light;
+    }
+}
