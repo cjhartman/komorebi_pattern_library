@@ -6,7 +6,22 @@
     height: calc(100vh);
     overflow-y: auto;
 
-    .content {
+    .nav-link {
+        color: $dark;
+        display: inline-block;
         position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 3px;
+            background: $base;
+            transition: .5s;
+        }
+        
+        &:hover::after {
+            width: 95%;
+        }
     }
 }

@@ -57,10 +57,5 @@ div {
     > a {
         font-family: Lato-Light;
         color: $darkness;
-
-        &:hover {
-            background-color: $less-bright;
-            color: $darkness;
-        }
     }
 }
