@@ -66,6 +66,8 @@ $colors: map-merge(
   $colors
 );
 
+// b2aa8e-0c1b33-963a59-03b5aa-dbfe87 
+// color pallete
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -74,14 +76,21 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
-$base: #0FA7C1 !default;
-$dark-base: #0D899E !default;
-$dangerous: #A03131 !default;
-$warning: #FFC914 !default;
-$darkness: #161616 !default;
-$bright: #FDFDFD;
-$less-bright: #F0F0F0;
-$pure-bright: #FFFFFF;
+$base: #963a59 !default;
+$dark-base: #7B3049 !default;
+$base-secondary: #DBFE87 !default;
+$dark-base-secondary: #B4D06F !default;
+$base-blue: #0C1B33 !default;
+$dark-base-blue: #091426 !default;
+$base-green-blue: #03B5AA !default;
+$dark-base-green-blue: #03847C !default;
+$base-brown: #C2BA51 !default;
+$dark-base-brown: #9F9943 !default;
+$base-darkness: #161616 !default;
+$dark-darkness: #101010 !default;
+$bright: #FDFDFD  !default;
+$less-bright: #F0F0F0  !default;
+$pure-bright: #FFFFFF  !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default

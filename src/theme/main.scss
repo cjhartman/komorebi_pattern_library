@@ -44,6 +44,31 @@ $font-path: "../assets/fonts";
 
 //
 //
+// Scrollbar refactor
+//
+//
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $less-bright; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $gray-600; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $gray-700; 
+}
+
+//
+//
 // Style specifics for navbar and content
 //
 //
@@ -52,10 +77,44 @@ div {
     > h4 {
         font-family: Lato;
         padding-top: 3rem;
+        color: $base-darkness;
     }
 
     > a {
         font-family: Lato-Light;
-        color: $darkness;
+    }
+}
+
+.welcome-content {
+    box-sizing:border-box;
+    position:absolute;
+    left:350px;
+    width:calc(100% - 350px);
+    top: 40%;
+    overflow: hidden;
+
+    .intro-title {
+        font-family: NotoSansJP-Medium;
+    }
+
+    p {
+        font-family: Lato-Light;
+    }
+}
+
+.base-content {
+    box-sizing:border-box;
+    position:absolute;
+    left:350px;
+    width:calc(100% - 350px);
+
+    .title {
+        font-family: NotoSansJP-Bold;
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-family: Lato-Light;
     }
 }

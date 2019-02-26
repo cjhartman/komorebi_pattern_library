@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BaseComponent } from './base/base.component';
 
 const routes: Routes = [
-  { path: '', component: BaseComponent }
+  { path: '', redirectTo: 'base', pathMatch: 'full' },
+  { path: 'base', loadChildren: './base/base.module#BaseModule' }
 ];
 
 @NgModule({
