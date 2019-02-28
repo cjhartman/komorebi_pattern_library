@@ -3,4 +3,8 @@
 .header {
     background-color: $base;
     font-family: NotoSansJP-Medium;
+
+    a {
+        color: $base-green;
+    }
 }

@@ -2,11 +2,10 @@
 
 .sidenav {
     position: fixed;
-    width: 20rem;
+    width: 18rem;
     height: calc(100vh);
     overflow-y: auto;
-    background-color: $less-bright;
-
+    border-right: 1px solid #dee2e6;
 
     .nav-link {
         color: $base-darkness;
@@ -18,7 +17,7 @@
             display: block;
             width: 0;
             height: 3px;
-            background: $base-green-blue;
+            background: $base-secondary;
             transition: .5s;
         }
         
@@ -26,4 +25,22 @@
             width: 95%;
         }
     }
+
+    .active-link {
+        background-color: $least-bright;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 3px;
+            background: $base-brown;
+            transition: .5s;
+        }
+        
+        &:hover::after {
+            width: 95%;
+        }
+    }
+
 }

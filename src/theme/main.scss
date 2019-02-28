@@ -72,12 +72,14 @@ $font-path: "../assets/fonts";
 // Style specifics for navbar and content
 //
 //
+h1, h2, h3, h4, h5 {
+    color: $base-darkness;
+}
 
 div {
     > h4 {
         font-family: Lato;
         padding-top: 3rem;
-        color: $base-darkness;
     }
 
     > a {
@@ -113,8 +115,11 @@ div {
         font-size: 5rem;
     }
 
-    h3 {
-        font-size: 2rem;
+    h2 {
         font-family: Lato-Light;
+    }
+
+    .secondary-title {
+        font-family: NotoSansJP-Medium
     }
 }

@@ -1,7 +1,48 @@
 @import "../../../../theme/variables";
 
-.color-swatch {
-    padding: 5rem;
-    border-radius: 1rem;
-    background-color: $base;
+.content-writing {
+    font-family: Lato-Light;
+}
+
+.color-swatch-container {
+    
+    ul {
+        padding: 0 5rem 1rem 0;
+
+        li {
+            width: 11rem;
+        }
+    }
+
+    .color-swatch-list {
+        list-style: none;
+
+        .color-swatch {
+            padding: 5rem;
+            border-radius: 1rem 1rem 0 0;
+        }
+
+        .color-swatch-details {
+            padding: .5rem;
+            font-family: Lato-Light;
+        }
+
+        .color-value {
+            padding: 0 .5rem .5rem;
+            font-size: .9rem;
+            font-family: NotoSansJP;
+            line-height: 1.6;
+        }
+
+        .hex {
+            padding: .5rem .5rem 0;
+        }
+    }
+
+    .color-details-container {
+        background-color: $less-bright;
+        padding: 1rem 5rem 0;
+        color: $gray-600;
+        list-style: none;
+    }
 }
