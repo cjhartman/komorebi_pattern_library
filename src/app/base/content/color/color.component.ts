@@ -10,13 +10,13 @@ export class ColorComponent implements OnInit {
   colors: any[] = [
     {
       color: 'base',
-      contentName: 'Fall',
-      contentValue: '#963A59'
+      contentName: 'Shining Green',
+      contentValue: '#AFF7B5'
     },
     {
       color: 'secondary',
       contentName: 'Sky',
-      contentValue: '#03B5AA'
+      contentValue: '#77ECFF'
     },
     {
       color: 'blue',
@@ -25,18 +25,18 @@ export class ColorComponent implements OnInit {
     },
     {
       color: 'green',
-      contentName: 'Sunsoaked Green',
-      contentValue: '#DBFE87'
+      contentName: 'Layered Leaves',
+      contentValue: '#BECE96'
     },
     {
       color: 'brown',
-      contentName: 'Shimmering Gold',
-      contentValue: '#C2BA51'
+      contentName: 'Wood',
+      contentValue: '#B29E5E'
     },
     {
       color: 'offWhite',
       contentName: 'Bright',
-      contentValue: '#F0F0F0'
+      contentValue: '#FCFCFF'
     },
     {
       color: 'selectedOffWhite',
@@ -46,7 +46,7 @@ export class ColorComponent implements OnInit {
     {
       color: 'dark',
       contentName: 'Night',
-      contentValue: '#161616'
+      contentValue: '#1E1E24'
     }
   ];
 
@@ -57,21 +57,21 @@ export class ColorComponent implements OnInit {
   colorSwatch(colors: any) {
     switch (colors) {
       case 'base':
-        return '#963A59';
+        return '#AFF7B5';
       case 'secondary':
-        return '#03B5AA';
+        return '#77ECFF';
       case 'blue':
         return '#0C1B33';
       case 'green':
-        return '#DBFE87';
+        return '#BECE96';
       case 'brown':
-        return '#C2BA51';
+        return '#B29E5E';
       case 'offWhite':
-        return '#F0F0F0';
+        return '#FCFCFF';
       case 'selectedOffWhite':
         return '#DCDFDF';
       case 'dark':
-        return '#161616';
+        return '#1E1E24';
     }
   }
 

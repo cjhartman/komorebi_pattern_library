@@ -8,6 +8,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { ColorComponent } from './content/color/color.component';
+import { BioComponent } from './content/bio/bio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ColorComponent } from './content/color/color.component';
     SidenavComponent,
     HeaderComponent,
     ContentComponent,
-    ColorComponent
+    ColorComponent,
+    BioComponent
   ],
   imports: [
     CommonModule,
