@@ -4,6 +4,7 @@ import { WelcomeComponent } from './content/welcome/welcome.component';
 import { BaseComponent } from './base.component';
 import { ColorComponent } from './content/color/color.component';
 import { BioComponent } from './content/bio/bio.component';
+import { TypographyComponent } from './content/typography/typography.component';
 
 const routes: Routes = [
   {
@@ -13,7 +14,8 @@ const routes: Routes = [
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: 'welcome', component: WelcomeComponent },
       { path: 'color', component: ColorComponent },
-      { path: 'bio', component: BioComponent }
+      { path: 'bio', component: BioComponent },
+      { path: 'typography', component: TypographyComponent }
     ]
   }
 ];

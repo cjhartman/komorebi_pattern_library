@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { ColorComponent } from './content/color/color.component';
 import { BioComponent } from './content/bio/bio.component';
+import { TypographyComponent } from './content/typography/typography.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BioComponent } from './content/bio/bio.component';
     HeaderComponent,
     ContentComponent,
     ColorComponent,
-    BioComponent
+    BioComponent,
+    TypographyComponent
   ],
   imports: [
     CommonModule,
